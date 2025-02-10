@@ -1,1 +1,23 @@
 <num-app-layout></num-app-layout>
+<!-- This is the root template file for the AppComponent, which serves as the main layout container for the application.
+It loads the <num-app-layout> component which likely contains the core layout structure (header, navigation, main content area, etc).
+All other components and views will be rendered within this layout through routing or nested components. -->
+<!-- The following nested components are part of the application structure: -->
+
+<!-- 1. num-app-layout: The main layout component that contains:
+     - Header/navigation area
+     - Main content container
+     - Footer (if present)
+     This is already rendered above -->
+
+<!-- 2. Inside num-app-layout, through routing (app-routing.module.ts), these components can be loaded:
+     - DataProtectionComponent (visible in app.module.ts declarations)
+     - Other routed components defined in feature modules -->
+
+<!-- 3. From the LayoutModule (imported in app.module.ts), likely contains:
+     - Navigation components
+     - Header components 
+     - Layout structure components -->
+
+<!-- 4. Components from CoreModule are typically services and utilities
+     rather than visual components -->
